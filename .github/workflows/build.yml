@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
       - name: Set gradle execution rights
         run: chmod +x ./src/android_app/gradlew
       - name: Build the app
